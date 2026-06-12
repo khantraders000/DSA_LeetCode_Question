@@ -61,5 +61,5 @@ int main()
     int lastanswer = lastOccurence(arr, target);
     cout << "first Occurence index is : " << answer << endl;
     cout << "last Occurence index is : " << lastanswer << endl;
-    return 0:
+    return 0;
 }

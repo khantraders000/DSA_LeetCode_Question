@@ -27,4 +27,8 @@ int main()
     vector<int> arr{1, 2, 3, 4, 10, 9, 6, 5};
     int highElement = peakElementIndex(arr);
     cout << "highest index in array is : " << highElement << " and at that index element is : " << arr[highElement] << endl;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 029f16d0b3027f776fe5c82dc65ee2f71f8fc2dc

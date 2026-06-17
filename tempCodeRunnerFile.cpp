@@ -1,26 +1,36 @@
-#include <iostream>
-#include <vector>
+#include  <iostream>
 using namespace std;
 
-int peakElementIndex(vector<int> arr){
+int solve(int dividend,int divisor){
     int s = 0;
-    int e = arr.size() - 1;
+    int e = abs(dividend);
+    int ans = -1;
     int mid = s + (e-s)/2;
-    while(s<e){
-        if(arr[mid]<arr[mid+1]){
-            s = mid + 1;
+    while(s<=e){
+        if(abs(divisor*mid) == abs(dividend)){
+            return mid ;
+        }
+        else if(abs(divisor*mid)>abs(dividend)){
+            e = mid -1;
         }
         else{
-            e = mid;
+            ans = mid;
+            s= mid+1;
         }
         mid = s + (e-s)/2;
     }
-    return s;
-
+    if((divisor<0 && dividend<0) || (divisor>0 && dividend>0)){
+        return ans;
+    }
+    else{
+        return -ans;
+    }
 }
 
 int main(){
-    vector<int> arr{1,2,3,4,10,9,6,5};
-    int highElement = peakElementIndex(arr);
-    cout<<"highest index in array is : "<<highElement<< " and at that index element is : "<<arr[highElement]<<endl;
+    int dividend =21;
+    int divisor = -7;
+    int ans = solve(dividend,divisor);
+    cout<<ans<<endl;
+    return 0;
 }

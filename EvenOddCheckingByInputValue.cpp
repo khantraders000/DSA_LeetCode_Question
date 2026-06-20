@@ -25,7 +25,7 @@ int main()
     }
     else
     {
-        cout << "the input value is odd: " << n << endl;
+        cout << "the input value is odd : " << n << endl;
     }
 
     return 0;

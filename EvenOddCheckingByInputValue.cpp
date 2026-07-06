@@ -11,7 +11,7 @@ int EvenOrOdd(int n)
     {
         return false;
     }
-}
+// # daily question 
 
 int main()
 {

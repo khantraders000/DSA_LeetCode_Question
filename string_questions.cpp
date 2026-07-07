@@ -14,7 +14,7 @@ string reducedString(string s){
 
         i++;
     }
-    return ans;
+    return ans; 
 }
 
 int main(){

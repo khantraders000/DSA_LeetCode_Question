@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int main()
+int main() 
 {
     vector<int> arr{0, 1, 0, 1, 1, 0, 1, 0, 1, 1};
     int start = 0;

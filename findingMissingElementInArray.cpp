@@ -8,7 +8,7 @@ int findMissing(int arr[], int n)
 
     while (s <= e)
     {
-        int mid = s + (e - s) / 2;
+        int mid = s + (e - s) / 2; 
 
         if (arr[mid] - mid == 1)
         {

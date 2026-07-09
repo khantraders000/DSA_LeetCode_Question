@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int EvenOrOdd(int n)
+int EvenOrOdd(int n) 
 {
     if (n % 2 == 0)
     {

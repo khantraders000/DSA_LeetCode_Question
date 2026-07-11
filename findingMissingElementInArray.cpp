@@ -4,7 +4,7 @@ using namespace std;
 int findMissing(int arr[], int n)
 {
     int s = 0;
-    int e = n - 1;
+    int e = n - 1; 
 
     while (s <= e)
     {

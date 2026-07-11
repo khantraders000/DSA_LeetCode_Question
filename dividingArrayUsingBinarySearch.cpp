@@ -13,7 +13,7 @@ int solve(int dividend, int divisor)
         {
             return mid;
         }
-        else if (abs(divisor * mid) > abs(dividend))
+        else if (abs(divisor * mid) >  abs(dividend))
         {
             e = mid - 1;
         }

@@ -6,7 +6,7 @@ bool binarySearch(int arr[][4], int rows, int cols, int target)
     int s = 0;
     int e = rows * cols - 1;
     int mid = s + (e - s) / 2;
-    while (s <= e) 
+    while (s <= e)
     {
         int rowsindex = mid / cols;
         int colsindex = mid % cols;

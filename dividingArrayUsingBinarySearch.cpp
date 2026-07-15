@@ -8,7 +8,7 @@ int solve(int dividend, int divisor)
     int ans = -1;
     int mid = s + (e - s) / 2;
     while (s <= e)
-    {
+    { 
         if (abs(divisor * mid) == abs(dividend))
         {
             return mid;

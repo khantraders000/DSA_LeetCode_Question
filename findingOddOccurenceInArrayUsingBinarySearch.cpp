@@ -11,7 +11,7 @@ int nonPairedElement(vector<int> arr)
     {
         if (s == e)
         {
-            return s;
+            return s; 
         }
         if (mid % 2 == 0)
         {

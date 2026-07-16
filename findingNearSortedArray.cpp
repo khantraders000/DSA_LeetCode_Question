@@ -9,7 +9,7 @@ int nearelySortedArray(int arr[],int target,int size){
             return mid;
         }
         if(arr[mid+1] == target){
-            return mid + 1; 
+            return mid + 1;
         }
         if(arr[mid-1] == target){
             return mid -1;

@@ -6,7 +6,7 @@ int nearelySortedArray(int arr[],int target,int size){
     int mid = s +(e-s)/2;
     while(s<=e){
         if(arr[mid] == target){
-            return mid;
+            return mid; 
         }
         if(arr[mid+1] == target){
             return mid + 1;

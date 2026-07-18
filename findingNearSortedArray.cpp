@@ -20,7 +20,7 @@ int nearelySortedArray(int arr[],int target,int size){
         else{
             e = mid -2;
         }
-        mid = s + (e-s)/2;
+        mid = s + (e-s)/2; 
     }
     return -1;
     

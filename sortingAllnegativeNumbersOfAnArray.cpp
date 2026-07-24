@@ -6,7 +6,7 @@ void sort(vector<int> &arr)
 { 
     int s = 0;
     int e = arr.size() - 1;
-    while (s < e)
+    while (s < e) 
     {
         if (arr[s] < 0)
         {
